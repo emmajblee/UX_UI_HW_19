@@ -53,6 +53,17 @@ button {
   
   
 }
+.Card img{
+  height: 10px;
+  position:relative;
+  left:175px;
+  
+}
+
+.toggleArrow{
+  transform: rotate(180deg)
+}
+
 i {
 translate: 180px;
 
