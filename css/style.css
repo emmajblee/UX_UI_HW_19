@@ -1,55 +1,82 @@
+* {
+  font-family: 'Avenir';
+}
+
 body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color: white;
   padding: 15px;
 }
 header ul {
   float: right;
-  color: white;
+  color: black;
 }
 header li {
   display: inline-block;
   padding: 0px 5px;
 }
+
+.brain{
+  height: 90px;
+  width:90px;
+}
 header p {
   display: inline-block;
 }
 .heroImg {
-  background-color: #EBEBEB;
+  background-color: #ffffff;
   padding: 100px 15px;
+  display: flex;
+  justify-content: space-between;
 }
 .content {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: #FFFFFF;
+  justify-content: start;
+  position: relative;
+  top: 10px;
+  max-width: 30%;
+  margin-left: 50px;
+  padding-left: 50px;
+  background-color: #ffffff;
   text-align: left;
+  
+}
+.content h1{
+  font-size: 400%;
+}
+.content p{
+  font-size: large;
+  width: 500px;
 }
 button {
   padding: 10px;
-  background-color: #576368;
+  background-color: #d73e2d;
   color: white;
   font-size: 15px;
-  border-radius: 4px;
+  border-radius: 20px;
   border: none;
-  margin-left: 5px;
+  
 }
-.button:hover{
-  color:red;
+.brain1{
+   float: right;
+   padding-right: 30px;
+   height:
+}
+.active, button:hover{
+  color:rgb(0, 0, 0);
 }
 
 .Card {
-  background-color: #eee;
-  color: #444;
+  background-color: #931a1a;
+  color: #ffffff;
   cursor:pointer;
   padding: 5px;
   width: 100%;
   text-align:left;
   border: none;
   transition: 0.4s;
-  border-radius: 5px;
+  border-radius: 50px;
   
   
 }
@@ -81,7 +108,7 @@ translate: 180px;
 
 }
 footer {
-  background-color: #373738;
+  background-color: #a9413fdb;
   padding: 5px;
   color: white;
 }
