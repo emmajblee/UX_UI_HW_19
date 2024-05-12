@@ -46,8 +46,12 @@ button {
   transition: 0.4s;
   border-radius: 5px;
   
+  
 }
+i {
+translate: 180px;
 
+}
 .active, .Card{
   background-color: #ccc;
 }
