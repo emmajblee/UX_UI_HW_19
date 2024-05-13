@@ -57,7 +57,8 @@ button {
   font-size: 15px;
   border-radius: 20px;
   border: none;
-  
+  position: relative;
+  top: 20px;
 }
 .brain1{
    float: right;
@@ -85,7 +86,7 @@ button {
 
 
 .Card {
-  background-color: #931a1a;
+  background-color: #f46262;
   color: #ffffff;
   cursor:pointer;
   padding: 5px;
@@ -95,6 +96,8 @@ button {
   border: none;
   transition: 0.4s;
   border-radius: 50px;
+  position: relative;
+  top: 30px;
   
   
 }
@@ -113,8 +116,8 @@ i {
 translate: 180px;
 
 }
-.active, .Card{
-  background-color: #ccc;
+.active, .Card:hover{
+  background-color: #e00d0d;
 }
 
 .Panel{
@@ -146,8 +149,15 @@ footer li {
 
 .heading1{
   position: relative;
-  top: 120px;
+  top: 110px;
   text-align: center;
+  font-size: xx-large;
+}
+.heading2{
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-size: xx-large;
 }
 /* My UX Skills Section */
 .flexContainer {
@@ -156,6 +166,14 @@ footer li {
   margin: 100px;
   padding-top: 50px;
   
+}
+.flexContainer p{
+  padding:10px;
+  font-size: larger;
+}
+.flexContainer h3{
+  padding:10px;
+  font-size: x-large;
 }
 .flexContainer div {
   width: 33%;
@@ -177,6 +195,15 @@ footer li {
   "img2 content2"
   "img3 content3"
   ;
+}
+
+.workGrid p{
+  font-size: large;
+
+}
+.workGrid h4{
+  font-size: x-large;
+  
 }
 .workGrid img {
   width: 50%;
