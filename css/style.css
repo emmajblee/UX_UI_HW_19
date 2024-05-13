@@ -82,6 +82,8 @@ button {
   height: 200px;
 
 }
+
+
 .Card {
   background-color: #931a1a;
   color: #ffffff;
@@ -99,7 +101,7 @@ button {
 .Card img{
   height: 10px;
   position:relative;
-  left:175px;
+  left:160px;
   
 }
 
@@ -141,10 +143,19 @@ footer li {
   padding: 15px 5px;
   font-size: 30px;
 }
+
+.heading1{
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
 /* My UX Skills Section */
 .flexContainer {
   display: flex;
   padding: 60px 30px;
+  margin: 100px;
+  padding-top: 50px;
+  
 }
 .flexContainer div {
   width: 33%;
@@ -155,7 +166,7 @@ footer li {
 .myWork {
   padding: 60px 30px;
   padding-top: 0;
-  background-color: #EBEBEB;
+  background-color: #fff2f2;
 }
 .workGrid {
   display: grid;
