@@ -45,6 +45,7 @@ header p {
 .content h1{
   font-size: 400%;
 }
+
 .content p{
   font-size: large;
   width: 500px;
@@ -66,13 +67,28 @@ button {
 .active, button:hover{
   color:rgb(0, 0, 0);
 }
+.research{
+  width: 200px;
+  height: 200px;
 
+}
+.design{
+  width: 200px;
+  height: 200px;
+
+}
+.wireframe{
+  width: 200px;
+  height: 200px;
+
+}
 .Card {
   background-color: #931a1a;
   color: #ffffff;
   cursor:pointer;
   padding: 5px;
   width: 100%;
+  height: 20px;
   text-align:left;
   border: none;
   transition: 0.4s;
@@ -152,9 +168,8 @@ footer li {
   ;
 }
 .workGrid img {
-  width: 100%;
-  max-width: 250px;
-  margin: 0 auto;
+  width: 50%;
+  margin-left: 50px;
   display: block;
 }
 .img1 {
@@ -162,6 +177,9 @@ footer li {
 }
 .img2 {
   grid-area: img2;
+  width: 1500px;
+  height: 1000px;
+  
 }
 .img3 {
   grid-area: img3;
@@ -174,6 +192,7 @@ footer li {
 }
 .content2 {
   grid-area: content2;
+  padding-top: 200px;
 }
 .content3 {
   grid-area: content3;
